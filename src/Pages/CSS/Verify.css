@@ -1,0 +1,145 @@
+.verify-container {
+  width: 100%;
+  min-height: 80vh;
+  background: #fce3fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.verify-box {
+  width: 580px;
+  background: white;
+  padding: 40px 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.verify-box h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.verify-box input {
+  height: 60px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  color: #5c5c5c;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.verify-box button {
+  width: 100%;
+  height: 72px;
+  color: white;
+  background: #ff4141;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.verify-box p {
+  font-size: 16px;
+  color: #5c5c5c;
+  text-align: center;
+}
+
+.verify-box p span {
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Responsive for screens up to 1280px */
+@media (max-width: 1280px) {
+  .verify-box {
+    width: 500px;
+    padding: 30px 50px;
+  }
+
+  .verify-box h2 {
+    font-size: 26px;
+  }
+
+  .verify-box input {
+    height: 55px;
+    font-size: 16px;
+  }
+
+  .verify-box button {
+    height: 65px;
+    font-size: 22px;
+  }
+}
+
+/* Responsive for screens up to 800px */
+@media (max-width: 800px) {
+  .verify-container {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .verify-box {
+    width: 400px;
+    padding: 25px 40px;
+  }
+
+  .verify-box h2 {
+    font-size: 24px;
+  }
+
+  .verify-box input {
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .verify-box button {
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .verify-box p {
+    font-size: 14px;
+  }
+}
+
+/* Responsive for screens up to 500px */
+@media (max-width: 500px) {
+  .verify-container {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+
+  .verify-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .verify-box h2 {
+    font-size: 20px;
+  }
+
+  .verify-box input {
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .verify-box button {
+    height: 55px;
+    font-size: 18px;
+  }
+
+  .verify-box p {
+    font-size: 12px;
+  }
+}
