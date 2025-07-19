@@ -32,6 +32,4 @@
 
 
 
-git add .
-git commit -m "Add redirects for Vite routing fix"
-git push
+
