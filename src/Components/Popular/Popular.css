@@ -22,7 +22,6 @@
 .popular-item {
     margin-top: 70px;
     display: flex;
-    gap: 40px; /* Added spacing between items */
     row-gap: 40px; /* Space between rows */
     column-gap: 90px; /* Space between columns */
 }
