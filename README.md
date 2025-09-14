@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+🚀 UpTrend: Full-Stack E-Commerce Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1919" height="908" alt="Screenshot 2025-09-14 231006" src="https://github.com/user-attachments/assets/51640cbe-5b52-4e4c-ab35-30844fd675ab" />
+I recently built and deployed a full-stack e-commerce platform that facilitates seamless online buying and selling of products. The platform is designed to streamline product browsing, ordering, and transactions while ensuring a smooth and secure shopping experience.
 
-## Available Scripts
+🔗 Live Demo: uptrendforyou.netlify.app
 
-In the project directory, you can run:
+Frontend (Customer & Admin): Deployed on Netlify
 
-### `npm start`
+Backend: Deployed on Railway
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔑 Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Product Browsing: Search & filter products with detailed descriptions, images, and pricing.
 
-### `npm test`
+Shopping Cart & Checkout: Add/remove items, update quantities, view real-time totals, and place orders securely.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User Authentication: Secure login/registration, encrypted passwords, role-based access (customer & admin).
 
-### `npm run build`
+Order Management: Track order history and current status for users.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Admin Panel: Manage products, categories, inventory, and monitor orders with full control.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👥 User Roles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Customers: Register, log in, browse, purchase, and track orders.
 
-### `npm run eject`
+Admins: Manage catalog, inventory, and orders with full control of site activity.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend: HTML, CSS, JavaScript, React (for admin panel & UI).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend: Node.js, Express.js.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Database: MongoDB.
 
-## Learn More
+Deployment: Netlify (frontend & admin), Railway (backend).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+⚡ Challenges Faced & Solved
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Image Upload & Management – Implemented efficient product image handling with cloud deployment support.
 
-### Code Splitting
+Role-Based Access Control – Ensured proper authorization flows for customers vs. admins.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Cross-Origin (CORS) Issues – Faced deployment challenges between Netlify (frontend) and Railway (backend), resolved with proper CORS configuration.
 
-### Making a Progressive Web App
+State Management – Simplified shopping cart and order tracking using React state handling techniques.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
